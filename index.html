@@ -9,45 +9,45 @@
 	<title>Document</title>
 </head>
 <body>
-<div class="mobile-menu">
+<aside class="mobile-menu mobile-menu--position">
 	<header class="mobile-menu__header">
-		<button class="mobile-menu__header--close nav__button"></button>
-		<a class="mobile-menu__header--logo">
+		<button class="mobile-menu__close nav__button"></button>
+		<a class="mobile-menu__logo">
 			<img class="nav__icon" src="img/Group.svg" alt="Логотип">
 		</a>
-		<button class="mobile-menu__header--search nav__button"></button>
+		<button class="mobile-menu__search nav__button"></button>
 	</header>
-	<div class="mobile-menu-main">
+	<div class="mobile-menu-main mobile-menu-main--position">
 		<nav class="mobile-menu-main__navigation">
-			<a class="mobile-menu-main__navigation--link" href="#">Ремонт техники</a>
-			<a class="mobile-menu-main__navigation--link" href="#">Услуги сервиса</a>
-			<a class="mobile-menu-main__navigation--link" href="#">Корпоративным клиентам</a>
-			<a class="mobile-menu-main__navigation--link" href="#">Продавцам техники</a>
-			<a class="mobile-menu-main__navigation--link" href="#">Партнерам</a>
-			<a class="mobile-menu-main__navigation--link" href="#">Производителям</a>
-			<a class="mobile-menu-main__navigation--link" href="#">Наши сервисные центры</a>
-			<a class="mobile-menu-main__navigation--link" href="#">Контакты</a>
+			<ul>
+				<li><a class="mobile-menu-main__link" href="#">Ремонт техники</a></li>
+				<li><a class="mobile-menu-main__link" href="#">Услуги сервиса</a></li>
+				<li><a class="mobile-menu-main__link" href="#">Корпоративным клиентам</a></li>
+				<li><a class="mobile-menu-main__link" href="#">Продавцам техники</a></li>
+				<li><a class="mobile-menu-main__link" href="#">Партнерам</a></li>
+				<li><a class="mobile-menu-main__link" href="#">Производителям</a></li>
+				<li><a class="mobile-menu-main__link" href="#">Наши сервисные центры</a></li>
+				<li><a class="mobile-menu-main__link" href="#">Контакты</a></li>
+			</ul>
 		</nav>
-		<div class="mobile-menu-main-footer">
-			<div class="mobile-menu-main-footer__sub-menu">
-				<a class="nav__button">
-					<img class="nav__icon" src="img/call.svg" alt="Кнопка звонок">
-				</a>
-				<a class="nav__button">
-					<img class="nav__icon" src="img/chat.svg" alt="Кнопка чат">
-				</a>
-				<a class="nav__button">
-					<img class="nav__icon" src="img/profile.svg" alt="Кнопка профиль">
-				</a>
-			</div>
-			<a href="#" class="e-mail">mail@cps.com</a>
-			<a href="#" class="phone-number"><b>8 800 890 8900</b></a>
-		</div>
-	</div>
 	<footer class="mobile-menu-footer">
-		<a href="#">RU</a>
-		<a href="#">EN</a>
-		<a href="#">CH</a>
-</div>
+		<div class="mobile-menu-footer__sub-menu">
+			<div class="mobile-menu-footer__menu-button">
+				<button class="button-call nav__button"></button>
+				<button class="button-chat nav__button"></button>
+				<button class="button-profile nav__button"></button>
+			</div>
+			<div class="mobile-menu-footer__contacts">
+			<a href="#" class="e-mail e-mail--position">mail@cps.com</a>
+			<a href="#" class="phone-number phone-number--position"><b>8 800 890 8900</b></a>
+			</div>
+		</div>
+		<div class="mobile-menu-footer__language">
+			<a href="#">RU</a>
+			<a href="#">EN</a>
+			<a href="#">CH</a>
+		</div>
+	</footer>
+</aside>
 </body>
 </html>
